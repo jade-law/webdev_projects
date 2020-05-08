@@ -1,0 +1,78 @@
+body {
+    background-color: #393E46;
+    font-family: 'Indie Flower', cursive;
+    color: #4DCCA3;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 130px;
+    font-weight: bold;
+    text-shadow: 4px 4px #232931;
+    margin: 15px 10px 5px 10px;
+}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    width: 80%;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 20px 0px 40px 0px;
+    text-shadow: 4px 4px #232931;
+}
+
+.playersCenterScreen {
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+}
+
+.player1 {
+    margin: 0px 30px 0px 30px;
+}
+
+.player1 > p {
+    margin-top: 0px;
+}
+
+.player2 {
+    margin: 0px 30px 0px 30px;
+}
+
+.player2 > p {
+    margin-top: 0px;
+}
+
+
+.lowerScreen {
+    font-family: 'Lobster', cursive;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    font-size: 50px;
+    background-color: #4DCCA3;
+    font-family: 'Lobster', cursive;
+    color: #393E46;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: rgb(60, 143, 117);
+}
