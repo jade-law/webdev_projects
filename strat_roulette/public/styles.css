@@ -1,0 +1,125 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Red Rose', cursive;
+}
+
+body::after {
+    content: "";
+    background: url("https://estnn.com/wp-content/uploads/2020/01/league-of-legends-header-x-1024x576.jpg");
+    background-size: cover;
+    opacity: 0.20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+h1 {
+    color: #C28F2B;
+    font-size: 64px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.flex-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customize-game-container {
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #121212;
+}
+
+.heading-sub-container {
+    text-align: center;
+    padding: 0px 25% 0px 25%;
+    font-size: 18px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.rule-gen-opts-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+input.hidden {
+    display: none;
+}
+
+.opts-wrapper {
+    border-radius: 10px;
+    width: 150px;
+    display: inline-flex;
+    position: relative;
+    vertical-align: top;
+    background-color: #C28F2B;
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    transition: 0.2s;
+}
+
+.opts-wrapper:hover {
+    background-color: #e0b254;
+}
+
+.rule-gen-opts-container-lbl {
+    text-align: center;
+}
+
+.legend-heading {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 5px 0px 5px 0px;
+    font-size: 28px;
+}
+
+.submit-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #C28F2B;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px 30px 0px 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+    border-color: #C28F2B;
+    transition: 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #e0b254;
+    border-color: #e0b254;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    margin: 5px;
+    opacity: 50%;
+}
